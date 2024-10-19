@@ -4,52 +4,75 @@
     "size":[16,16],
     "sprites":[
         {
-            "name":"heart_0",
-            "x":0,
+            "name":"pot1_empty",
+            "x":208,
             "y":0,
             "scalefactor":3,
             "colorKey":-1,
-            "collision":false
+            "collision":true
         },
         {
-            "name":"heart_1",
-            "x":16,
+            "name":"pot2_empty",
+            "x":224,
             "y":0,
             "scalefactor":3,
             "colorKey":-1,
-            "collision":false
+            "collision":true
         },
         {
-            "name":"heart_2",
-            "x":32,
+            "name":"pot3_empty",
+            "x":240,
             "y":0,
             "scalefactor":3,
             "colorKey":-1,
-            "collision":false
+            "collision":true
         },
         {
-            "name":"heart_3",
-            "x":48,
-            "y":0,
+            "name":"pot1_full",
+            "x":208,
+            "y":16,
             "scalefactor":3,
             "colorKey":-1,
-            "collision":false
+            "collision":true
         },
         {
-            "name":"heart_4",
-            "x":64,
-            "y":0,
+            "name":"pot2_full",
+            "x":224,
+            "y":16,
             "scalefactor":3,
             "colorKey":-1,
-            "collision":false
+            "collision":true
         },
         {
-            "name":"star",
-            "x":80,
-            "y":0,
+            "name":"pot3_full",
+            "x":240,
+            "y":16,
             "scalefactor":3,
             "colorKey":-1,
-            "collision":false
+            "collision":true
+        },{
+            "name":"pot1_broken",
+            "x":208,
+            "y":32,
+            "scalefactor":3,
+            "colorKey":-1,
+            "collision":true
+        },
+        {
+            "name":"pot2_broken",
+            "x":224,
+            "y":32,
+            "scalefactor":3,
+            "colorKey":-1,
+            "collision":true
+        },
+        {
+            "name":"pot3_broken",
+            "x":240,
+            "y":32,
+            "scalefactor":3,
+            "colorKey":-1,
+            "collision":true
         }
 ]
 }

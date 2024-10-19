@@ -12,16 +12,39 @@ gPlayer_animation_list = {"down": sprite_collection["character_walk_down"].anima
                          "right": sprite_collection["character_walk_right"].animation,
                          "up": sprite_collection["character_walk_up"].animation,
                          "left": sprite_collection["character_walk_left"].animation,
+
                         "attack_down": sprite_collection["character_attack_down"].animation,
                         "attack_right": sprite_collection["character_attack_right"].animation,
                         "attack_up": sprite_collection["character_attack_up"].animation,
-                        "attack_left": sprite_collection["character_attack_left"].animation
+                        "attack_left": sprite_collection["character_attack_left"].animation,
+
+                        "potlift_down": sprite_collection["character_potlift_down"].animation,
+                        "potlift_right": sprite_collection["character_potlift_right"].animation,
+                        "potlift_up": sprite_collection["character_potlift_up"].animation,
+                        "potlift_left": sprite_collection["character_potlift_left"].animation,
+
+                        "potwalk_down": sprite_collection["character_potwalk_down"].animation,
+                        "potwalk_right": sprite_collection["character_potwalk_right"].animation,
+                        "potwalk_up": sprite_collection["character_potwalk_up"].animation,
+                        "potwalk_left": sprite_collection["character_potwalk_left"].animation,
 }
 
 gSkeleton_animation_list = {"down": sprite_collection["skeleton_walk_down"].animation,
                          "right": sprite_collection["skeleton_walk_right"].animation,
                          "up": sprite_collection["skeleton_walk_up"].animation,
                          "left": sprite_collection["skeleton_walk_left"].animation,
+}
+
+gPot_image_list = {
+    "pot1_empty": sprite_collection.get("pot1_empty", None),
+    "pot2_empty": sprite_collection.get("pot2_empty", None),
+    "pot3_empty": sprite_collection.get("pot3_empty", None),
+    "pot1_full": sprite_collection.get("pot1_full", None),
+    "pot2_full": sprite_collection.get("pot2_full", None),
+    "pot3_full": sprite_collection.get("pot3_full", None),
+    "pot1_broken": sprite_collection.get("pot1_broken", None),
+    "pot2_broken": sprite_collection.get("pot2_broken", None),
+    "pot3_broken": sprite_collection.get("pot3_broken", None),
 }
 
 
